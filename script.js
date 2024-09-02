@@ -6,70 +6,57 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "Assim que saiu da escola você se depara com uma nova tecnologia, um chat que consegue responder todas as dúvidas que uma pessoa pode ter, ele também gera imagens e áudios hiper-realistas. Qual o primeiro pensamento?",
+        enunciado: "A inteligência artificial (IA) é um conjunto de tecnologias que possibilitam aos computadores realizar diversas tarefas avançadas. Quais são as consequências da IA para a privacidade dos dados?",
         alternativas: [
             {
-                texto: "Isso é assustador!",
-                afirmacao: "afirmação"
+                texto: "A inteligência artificial pode ser crucial para identificar e prevenir ameaças à segurança, mas também acaba expondo informações inseridas por outros usuários da plataforma.",
+                afirmacao: "Você está familiarizado com as tecnologias do futuro, mas é bastante prudente."
             },
             {
-                texto: "Isso é maravilhoso!",
-                afirmacao: "afirmação"
+                texto: "Ela também pode ser empregada como um meio para violar a privacidade.",
+                afirmacao: "Você se sente completamente inseguro quanto ao uso da IA e está determinado a proteger suas informações a todo custo."
             }
         ]
     },
     {
-        enunciado: "Com a descoberta desta tecnologia, chamada Inteligência Artificial, uma professora de tecnologia da escola decidiu fazer uma sequência de aulas sobre esta tecnologia. No fim de uma aula ela pede que você escreva um trabalho sobre o uso de IA em sala de aula. Qual atitude você toma?",
+        enunciado: "Após a introdução da nova tecnologia, conhecida como Inteligência Artificial, uma professora de tecnologia da escola decidiu criar uma série de aulas sobre o assunto. No final de uma das aulas, ela solicita que você elabore um trabalho sobre a aplicação da IA no ambiente escolar. Qual seria a sua reação?",
         alternativas: [
             {
-                texto: "Utiliza uma ferramenta de busca na internet que utiliza IA para que ela ajude a encontrar informações relevantes para o trabalho e explique numa linguagem que facilite o entendimento.",
-                afirmacao: "afirmação"
+                texto: "Conduzindo pesquisas para entender suas tradições e culturas",
+                afirmacao: "Para você, a ética e a IA estão interligadas."
             },
             {
-                texto: "Escreve o trabalho com base nas conversas que teve com colegas, algumas pesquisas na internet e conhecimentos próprios sobre o tema.",
-                afirmacao: "afirmação"
+                texto: "Explorando como as tradições e culturas afetam nosso dia a dia.",
+                afirmacao: "Você acredita que a influência das tradições e culturas é significativa em nossa vida cotidiana."
             }
         ]
     },
     {
-        enunciado: "Após a elaboração do trabalho escrito, a professora realizou um debate entre a turma para entender como foi realizada a pesquisa e escrita. Nessa conversa também foi levantado um ponto muito importante: como a IA impacta o trabalho do futuro. Nesse debate, como você se posiciona?",
+        enunciado: "Com a inteligência artificial criando artistas totalmente virtuais—como músicas e obras de arte—e promovendo o consumo desenfreado, isso pode prejudicar a tradição e a cultura. Como podemos preservar a tradição e a cultura no contexto atual dominado pelas inteligências artificiais??",
         alternativas: [
             {
                 texto: "Defende a ideia de que a IA pode criar novas oportunidades de emprego e melhorar habilidades humanas.",
                 afirmacao: "afirmação"
             },
             {
-                texto: "Me preocupo com as pessoas que perderão seus empregos para máquinas e defendem a importância de proteger os trabalhadores.",
-                afirmacao: "afirmação"
+                texto: "Procurando informações na legislação de saúde.",
+                afirmacao: "Você prefere o método tradicional de pesquisa, sempre citando fontes confiáveis"
             }
         ]
     },
     {
-        enunciado: "Ao final da discussão, você precisou criar uma imagem no computador que representasse o que pensa sobre IA. E agora?",
+        enunciado: "Considerando que o consumo consciente é aquele em que o indivíduo adquire apenas o que é necessário, como a sociedade poderia adotar práticas de consumo consciente utilizando informações fornecidas pela inteligência artificial?",
         alternativas: [
             {
-                texto: "Criar uma imagem utilizando uma plataforma de design como o Paint.",
-                afirmacao: "afirmação"
+                texto: "Comparação entre as informações fornecidas pela inteligência artificial e as informações pessoais.",
+                afirmacao: "Você acredita que tem opiniões bem fundamentadas, mas acaba se influenciando pelo que a IA apresenta."
             },
             {
                 texto: "Criar uma imagem utilizando um gerador de imagem de IA.",
                 afirmacao: "afirmação"
             }
         ]
-    },
-    {
-        enunciado: "Você tem um trabalho em grupo de biologia para entregar na semana seguinte, o andamento do trabalho está um pouco atrasado e uma pessoa do seu grupo decidiu fazer com ajuda da IA. O problema é que o trabalho está totalmente igual ao do chat. O que você faz? ",
-        alternativas: [
-            {
-                texto: "Escrever comandos para o chat é uma forma de contribuir com o trabalho, por isso não é um problema utilizar o texto inteiro.",
-                afirmacao: "afirmação"
-            },
-            {
-                texto: "O chat pode ser uma tecnologia muito avançada, mas é preciso manter a atenção pois toda máquina erra, por isso revisar o trabalho e contribuir com as perspectivas pessoais é essencial.",
-                afirmacao: "afirmação"
-            }
-        ]
-    },
+    }
 ];
 
 
